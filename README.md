@@ -14,14 +14,14 @@ To make things as easy as possible, we will download models from HuggingFace on 
 ## Build Docker image
 Position your shell in the root of this repository, and execute (be patient, some heavy packages are required :)
 ```
-$ docker build -t sentiment_analysis_streamlined .
+$ docker build -t sentiment_analysis .
 ```
 </br>
 
 
 ## Run Docker container
 ```
-$ docker run --rm -it -p 8000:8000 sentiment_analysis_streamlined
+$ docker run --rm -it -p 8000:8000 sentiment_analysis
 ```
 **Advance Usage**:</br>
 - Set number of workers running inside a Docker container by adding a flag (default is 1):
