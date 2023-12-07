@@ -1,0 +1,8 @@
+# Lint
+black
+isort
+ruff
+mypy
+
+# Security analysis
+bandit
